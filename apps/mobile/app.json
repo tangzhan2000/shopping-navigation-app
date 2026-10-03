@@ -1,0 +1,17 @@
+{
+  "expo": {
+    "name": "省心购",
+    "slug": "shopping-navigation",
+    "scheme": "shopping-navigation",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.shoppingnavigation.app"
+    },
+    "android": {
+      "package": "com.shoppingnavigation.app"
+    }
+  }
+}

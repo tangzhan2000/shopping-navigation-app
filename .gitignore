@@ -1,0 +1,14 @@
+node_modules/
+.pnpm-store/
+dist/
+coverage/
+.expo/
+.expo-export/
+.env
+.env.*
+!.env.example
+*.local
+*.tsbuildinfo
+.DS_Store
+.claude/settings.local.json
+.claude-flow/

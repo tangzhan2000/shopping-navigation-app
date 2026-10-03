@@ -1,0 +1,19 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "api-storage-preview",
+      "runtimeExecutable": "/bin/sh",
+      "runtimeArgs": ["-lc", "API_PORT=\"$PORT\" exec ./node_modules/.bin/tsx apps/api/src/index.ts"],
+      "port": 3000,
+      "autoPort": true
+    },
+    {
+      "name": "expo-web-preview",
+      "runtimeExecutable": "/bin/sh",
+      "runtimeArgs": ["-lc", "cd /Users/tangzhan/work/电商/apps/mobile && exec ./node_modules/.bin/expo start --web --port \"$PORT\""],
+      "port": 8083,
+      "autoPort": true
+    }
+  ]
+}
